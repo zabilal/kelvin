@@ -67,3 +67,5 @@ export const Chat = ({ location }) => {
     </div>
   );
 }
+
+// export default Chat;

@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+// import '../App.css'
+
 class NavigationBar extends React.Component {
 
   render() {
@@ -13,7 +15,8 @@ class NavigationBar extends React.Component {
         role="banner"
         class="fixed-nav w-nav"
       >
-        <div class="container nav-container w-container">
+        {/* <div class="container nav-container w-container"> */}
+        <div class="nav-container w-container">
           <Link to="/" class="brand w-nav-brand w--current">
             <img
               src="/images/New-Project-3.png"
