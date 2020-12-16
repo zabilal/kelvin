@@ -1,8 +1,5 @@
 import React from 'react';
-// import { connect } from 'react-redux';
 import NavigationBar from './NavigationBar';
-
-// import '../App.css'
 
 class Home extends React.Component {
   render() {

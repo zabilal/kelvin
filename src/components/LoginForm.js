@@ -1,7 +1,4 @@
-
 import React from 'react';
-// import { connect } from 'react-redux';
-
 class LoginForm extends React.Component {
     render() {
         return (
@@ -46,12 +43,5 @@ class LoginForm extends React.Component {
         )
     }
 }
-
-function mapState(state) {
-  return {};
-}
-
-const actionCreators = {
-};
 
 export default LoginForm;
